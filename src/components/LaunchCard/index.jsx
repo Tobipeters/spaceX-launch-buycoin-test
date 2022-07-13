@@ -10,7 +10,7 @@ export const LaunchCard = (props) => {
       <div className={LaunchCardStyle.ver__line__separator}></div>
       <div className="row w-100 mx-0">
         <div
-          className={`${LaunchCardStyle.name__details} col-lg-1 col-md-1 col-2 ps-3 ps-md-0`}
+          className={`${LaunchCardStyle.name__details} col-lg-1 col-md-2 col-3 ps-3 ps-md-4 ps-lg-0`}
         >
           <img
             src={
@@ -22,7 +22,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details} col-lg-2 col-md-3 col-10`}
+          className={`${LaunchCardStyle.name__details} col-lg-2 col-md-10 col-9`}
         >
           <h5 className={LaunchCardStyle.name}>Mission Name</h5>
           <h5 className={`${LaunchCardStyle.detail} mb-0`}>
@@ -31,7 +31,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details} col-lg-2 col-md-3 col-4 ps-3 ps-md-0`}
+          className={`${LaunchCardStyle.name__details} col-lg-2 col-4 ps-3 ps-md-4 ps-lg-0`}
         >
           <h5 className={LaunchCardStyle.name}>Rocket Name</h5>
           <h5 className={`${LaunchCardStyle.detail} mb-0`}>
@@ -40,7 +40,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details} col-lg-2 col-md-3 col-4`}
+          className={`${LaunchCardStyle.name__details} col-lg-2 col-4`}
         >
           <h5 className={LaunchCardStyle.name}>Launch Site</h5>
           <h5 className={`${LaunchCardStyle.detail} mb-0`}>
@@ -49,7 +49,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details} ${LaunchCardStyle.mobile__footer}  col-lg-2 col-md-2 col-6 order-2 order-md-1`}
+          className={`${LaunchCardStyle.name__details} ${LaunchCardStyle.mobile__footer}  col-lg-2 col-6 order-2 order-lg-1`}
         >
           <h5 className={LaunchCardStyle.name}> Status</h5>
           <h5 className={`${LaunchCardStyle.detail} mb-0`}>
@@ -70,7 +70,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details}  col-lg-2 col-md-6 order-1 order-md-2 col-4`}
+          className={`${LaunchCardStyle.name__details}  col-lg-2  order-1 order-lg-2 col-4`}
         >
           <h5 className={LaunchCardStyle.name}> Date</h5>
           <h5 className={`${LaunchCardStyle.detail} mb-0`}>
@@ -82,7 +82,7 @@ export const LaunchCard = (props) => {
         </div>
 
         <div
-          className={`${LaunchCardStyle.name__details} ${LaunchCardStyle.mobile__footer} border-right-0 col-lg-1 col-md-6 col-6 order-3 order-md-3`}
+          className={`${LaunchCardStyle.name__details} ${LaunchCardStyle.mobile__footer} border-right-0 col-lg-1  col-6 order-3 order-lg-3`}
         >
           <div className={LaunchCardStyle.learn__more__link}>
             <a>Learn more</a>
