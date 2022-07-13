@@ -38,7 +38,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width:767.9px){
+@media screen and (max-width:991.9px){
   .home__card {
     padding: 1.5rem .5rem;
     border: none;

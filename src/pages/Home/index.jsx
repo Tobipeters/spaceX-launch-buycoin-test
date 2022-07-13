@@ -117,7 +117,7 @@ export const Home = () => {
             </Form.Select>
           </div>
 
-          <div className="col-lg-2 col-md-3 col-4 mt-4 mt-lg-0">
+          <div className="col-lg-2 col-md-3 col-4 px-0 px-md-1 mt-4 mt-lg-0">
             <Form.Select
               aria-label="launch status"
               className={HomeStyles.select__field}

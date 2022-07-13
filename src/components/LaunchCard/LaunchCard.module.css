@@ -177,7 +177,7 @@
   }
 }
 
-@media screen and (max-width: 767.9px) {
+@media screen and (max-width: 991.9px) {
   .launch__card {
     padding: 0;
     margin-bottom: 1rem;
@@ -190,8 +190,8 @@
   }
 
   .name__details img {
-    width: 55px;
-    height: 50px;
+    width: 60px;
+    height: 57px;
   }
 
   .name__details {
