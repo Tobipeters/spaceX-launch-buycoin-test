@@ -1,7 +1,7 @@
 # spaceX launch (Buycoin Test)
 ![my custom logo :)](/src/assets/images/logo_bg.jpg)
 
-spaceX launch App shows the list of all rocket launched by spaceX and details of each launch.
+spaceX launch app shows the list of all rocket launched by spaceX and details of each launch.
 
 This project was inspire by **buycoin engineering assessmnet**.
 
@@ -9,13 +9,13 @@ This project was inspire by **buycoin engineering assessmnet**.
 
 # Usage
 
-To check it live [here](https://buycoin-test.vercel.app).
+Click [here](https://buycoin-test.vercel.app) to check it live
 
-- View list of all rocket launches (Over 100)
+- View list of all rocket launched (Over 100)
 - Click learn more link to watch video of a rocket launch
-- Search throught the launches using mission name, rocket name and launch site
-- Sort launches by the most recent launches and oldest launches
-- Group launches by rocket name, misison anme and launch site
+- Search through the launches using **__mission name__**, **__rocket name__** and **__launch site__**
+- Sort launches by  **__most recent launches__** and **__oldest launches__**
+- Group launches by **__mission name__**, **__rocket name__** and **__launch site__**
 
 
 
