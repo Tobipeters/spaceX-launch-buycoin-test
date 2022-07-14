@@ -13,9 +13,9 @@ Click [here](https://buycoin-test.vercel.app) to check it live
 
 - View list of all rocket launched (Over 100)
 - Click learn more link to watch video of a rocket launch
-- Search through the launches using **__mission name__**, **__rocket name__** and **__launch site__**
-- Sort launches by  **__most recent launches__** and **__oldest launches__**
-- Group launches by **__mission name__**, **__rocket name__** and **__launch site__**
+- Search through the launches using ***mission name***, ***rocket name*** and ***launch site***
+- Sort launches by  ***most recent launches*** and ***oldest launches***
+- Group launches by ***mission name***, ***rocket name*** and ***launch site***
 
 
 
