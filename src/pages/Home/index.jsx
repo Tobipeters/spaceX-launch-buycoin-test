@@ -5,6 +5,7 @@ import { GET_ROCKET_LAUNCHES } from "../../queries/index.gql";
 import { Form, Accordion } from "react-bootstrap";
 import HomeStyles from "./Home.module.css";
 import { FiX } from "react-icons/fi";
+import { Loader } from "../../components/Loader";
 
 export const Home = () => {
   const [groupName, setGroupName] = useState("");
@@ -18,7 +19,7 @@ export const Home = () => {
     }
   }, [data, error, loading]);
 
-  if (loading) return "";
+  if (loading) return <Loader />
 
   if (error) console.log(error);
 
@@ -193,7 +194,7 @@ export const Home = () => {
           </div>
 
           {isGrouping && (
-            <div className="col-lg-2 col-md-3 col-4 mt-4 mt-lg-0">
+            <div className="col-lg-2 col-md-3 col-6 mt-4 mt-lg-0 d-flex align-items-center">
               <div className="text-danger pointer" onClick={resetFilter}>
                 Clear Grouping <FiX />
               </div>

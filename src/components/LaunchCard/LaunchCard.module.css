@@ -106,10 +106,11 @@
   font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: underline !important;
+  color: #0d6efd !important;
 }
 
-.video__iframe{
+.video__iframe {
   width: 100%;
   height: 350px;
 }
