@@ -38,14 +38,24 @@
   font-weight: 700;
 }
 
-@media screen and (max-width:991.9px){
+.groupedby__header {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #666666;
+}
+
+.groupedby__header span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991.9px) {
   .home__card {
-    padding: 1.5rem .5rem;
+    padding: 0rem 0.5rem 1.5rem;
     border: none;
   }
 
   .search__container {
     width: 100%;
-    padding: 1 rem 0;
+    padding: .75rem 0;
   }
 }

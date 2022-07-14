@@ -1,0 +1,22 @@
+
+.accordion-item {
+  margin-bottom: 1rem !important;
+}
+.accordion-button {
+  font-weight: 700;
+}
+.pointer {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767.9px) {
+  .accordion-item {
+    border-width: 0px 0px 1px 0px;
+  }
+  .accordion-item:last-child {
+    border-width: 0px;
+  }
+  .accordion-body {
+    padding: 1rem 0rem;
+  }
+}
