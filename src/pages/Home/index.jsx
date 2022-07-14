@@ -8,6 +8,7 @@ import { FiX } from "react-icons/fi";
 import { Loader } from "../../components/Loader";
 
 export const Home = () => {
+  const [isSearching, setIsSearching] = useState(false);
   const [groupName, setGroupName] = useState("");
   const [isGrouping, setIsGrouping] = useState(false);
   const [searchResult, setSearchResult] = useState([]);
@@ -19,7 +20,7 @@ export const Home = () => {
     }
   }, [data, error, loading]);
 
-  if (loading) return <Loader />
+  if (loading) return <Loader />;
 
   if (error) console.log(error);
 
@@ -27,6 +28,8 @@ export const Home = () => {
 
   const handleSearch = (event) => {
     const value = event.target.value.toLowerCase();
+
+    setIsSearching(value.length >= 1 ? true : false);
 
     let filtered = data.launches.filter((launch) => {
       return (
@@ -222,6 +225,17 @@ export const Home = () => {
 
         {!isGrouping ? (
           <section className={`${HomeStyles.responsive__row} row`}>
+            {isSearching && (
+              <h5 className={HomeStyles.groupedby__header}>
+                Search result:{" "}
+                <span>
+                  {" "}
+                  {searchResult.length} launch
+                  {searchResult.length > 1 ? "es" : ""} found{" "}
+                </span>
+              </h5>
+            )}
+
             {renderLaunches(searchResult)}
           </section>
         ) : (
