@@ -14,7 +14,7 @@ export const NavSection = () => {
         </Navbar.Brand>
 
         <Nav className="ms-auto">
-          <Nav.Link href="#link" className={NavStyle.user__link}>
+          <Nav.Link href="https://tobipeter-portfolio.netlify.app/"  className={NavStyle.user__link}>
             <div className={NavStyle.avatar__container}>
               <img src={MyAvatar} alt="my_avatar" className="rounded-circle" />
             </div>

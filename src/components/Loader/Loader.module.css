@@ -7,7 +7,7 @@
 }
 
 .spinner__container {
-  width: 100%;
+  /* width: 100%; */
   margin: 50px auto;
   align-items: center;
   border: 7px solid #f3f3f3; /* Light grey */
@@ -15,14 +15,13 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  animation: spin 2s linear infinite;
+  animation: spin 1.2s linear infinite;
   position: relative;
 }
 
 .spinner__container img {
   position: absolute;
   width: 60px;
-  transform: none;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -42,4 +41,15 @@
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 767.9px) {
+  .spinner__container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .spinner__container img {
+    width: 40px;
+  }
 }
