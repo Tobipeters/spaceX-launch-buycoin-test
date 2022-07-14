@@ -1,4 +1,5 @@
 # spaceX launch
+![my custom logo :)](/assets/images/logo.png)
 
 spaceX launch App shows the list of all rocket launched by spaceX and details of each launch.
 
@@ -18,16 +19,21 @@ To check it live [here](https://buycoin-test.vercel.app).
 
 # Installation
 
+Clone the repository
+
 ```bash
-
 git clone https://github.com/Tobipeters/buycoin-test.git
+```
 
-After cloning the project, proceed install all the packages used, by running:
+Go into the project directory and run the command to install the packages:
 
+```bash
 npm install
+```
 
-You can then start the app by running (React app):
+You can now start the app by running (React app):
 
+```bash
 npm start or yarn start
 ```
 
