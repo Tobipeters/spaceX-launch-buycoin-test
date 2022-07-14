@@ -1,5 +1,5 @@
-# spaceX launch
-![my custom logo :)](/src/assets/images/logo.png)
+# spaceX launch (Buycoin Test)
+![my custom logo :)](/src/assets/images/logo_bg.jpg)
 
 spaceX launch App shows the list of all rocket launched by spaceX and details of each launch.
 
