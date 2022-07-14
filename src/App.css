@@ -1,0 +1,9 @@
+.accordion-item{
+    margin-bottom: 1rem !important;
+}
+.accordion-button{
+    font-weight: 700;
+}
+.pointer {
+    cursor: pointer;
+}

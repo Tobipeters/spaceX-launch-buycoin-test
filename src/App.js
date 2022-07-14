@@ -1,6 +1,6 @@
-import "./App.css";
 import { NavSection } from "./components/NavSection";
 import { MainRoutes } from "./routes";
+import "./App.css";
 
 function App() {
   return (

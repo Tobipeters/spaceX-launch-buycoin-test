@@ -17,3 +17,16 @@
   font-size: 1rem;
   margin: 0 0 0 0.5rem;
 }
+
+.logo__section {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo__section img{
+  width: 40px;
+}
+
+.logo__section span {
+  font-weight: 800;
+}
